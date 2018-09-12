@@ -1,0 +1,46 @@
+/*
+    vw + vh + rem
+    100vw = 屏幕宽度
+    100vh = 屏幕高度
+    1rem = 1个html的字体大小 
+
+    不同的屏幕大小下。页面都可以完整的显示
+    根据屏幕的宽度，页面的内容 可以进行 等比的缩放
+*/
+html {
+    /* html的字体大小为屏幕宽度的 7.5分之一 */
+    font-size: 13.33333vw;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dd {
+    margin: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a,
+button,
+input {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance:none;
+}
+img {
+    vertical-align: top;
+}
+body * {
+    -webkit-text-size-adjust: none;
+}
+body {
+    font-size: .3rem;
+}

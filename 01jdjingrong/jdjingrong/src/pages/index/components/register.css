@@ -1,0 +1,19 @@
+.jr-header{
+    height:50px;
+    padding:0 12px 0 12px;
+    border-bottom:1px solid red;
+    display:flex;
+    line-height: 50px;
+}
+.js-header .jr-header-user-login span{
+    font-size: 14px;
+    color:red;
+}
+.jr-logo{
+    flex:1;
+}
+.jr-logo img{
+    width:105px;
+    height:28px;
+    display:inline-block;
+}
