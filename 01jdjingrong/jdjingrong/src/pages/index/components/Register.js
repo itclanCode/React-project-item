@@ -1,5 +1,5 @@
 import React, {Component,Fragment} from 'React'
-
+import jrLogo from "./jr-logo.png"
 import './register.css'
 
 class Register extends Component {
@@ -12,7 +12,7 @@ class Register extends Component {
                           <span>注册</span>|<span>登陆</span>
                      </div>
                      <div className="jr-logo">
-                          <img src="require('../../../img/jr-logo.png')" alt=""/>
+                          <img src={jrLogo} alt=""/>
                      </div>
                      <div className="jr-download"></div>
                 </div>
