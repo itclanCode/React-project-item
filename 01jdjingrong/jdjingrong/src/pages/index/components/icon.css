@@ -1,0 +1,11 @@
+.icon{
+    padding: 20px 20px 20px 24px;
+}
+.icon .icon-list{
+    display:flex;
+}
+.icon .icon-list li{
+    flex:1;
+    background:red;
+    height: 100px;
+}
